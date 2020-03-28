@@ -1,33 +1,30 @@
 <template>
-  <div class="container">
-    <h2 class="display-2 font-weight-bold mt-5 mb-3 text-uppercase text-center">Standorte</h2>
-
-    <v-responsive class="mx-auto mb-8" width="56">
-      <v-divider class="mb-1"></v-divider>
-
-      <v-divider></v-divider>
-    </v-responsive>
-    <v-row>
-      <v-col
-        v-for="site in sites"
-        :key="site.name"
-        cols="12"
-        md="6"
-      >
-        <site v-bind:site="site"></site>
-      </v-col>
-    </v-row>
+  <div class="sites">
+    <banner v-bind:banner="banner"></banner>
+    <div class="container">
+      <v-row>
+        <v-col v-for="site in sites" :key="site.name" cols="12" md="6">
+          <site v-bind:site="site"></site>
+        </v-col>
+      </v-row>
+    </div>
   </div>
 </template>
 
 <script>
 import Site from "@/components/Site";
+import Banner from "@/components/Banner";
 export default {
   name: "Sites",
   components: {
-    Site
+    Site,
+    Banner
   },
   data: () => ({
+    banner: {
+      title: "Standorte",
+      uri: "/assets/images/sites_mobile.jpg"
+    },
     sites: [
       {
         location: "Standort Mitte",

@@ -1,58 +1,62 @@
 <template>
-  <section id="impress" class="container">
-    <h2 class="display-2 font-weight-bold mt-5 mb-3 text-uppercase text-center">Impressum</h2>
-
-    <v-responsive class="mx-auto mb-8" width="56">
-      <v-divider class="mb-1"></v-divider>
-
-      <v-divider></v-divider>
-    </v-responsive>
-    <p>
-      <span>{{ address.name }}</span>
-      <br />
-      <span>{{ address.street }}</span>
-      <br />
-      <span>{{ address.city }}</span>
-    </p>
-    <div class="py-6">
-      <div>
-        <v-icon small>mdi-phone</v-icon>
-        <span class="pl-1">{{ phone }}</span>
+  <div class="impressum">
+    <banner v-bind:banner="banner"></banner>
+    <section id="impress" class="container">
+      <p>
+        <span>{{ address.name }}</span>
+        <br />
+        <span>{{ address.street }}</span>
+        <br />
+        <span>{{ address.city }}</span>
+      </p>
+      <div class="py-6">
+        <div>
+          <v-icon small>mdi-phone</v-icon>
+          <span class="pl-1">{{ phone }}</span>
+        </div>
+        <div>
+          <v-icon small>mdi-fax</v-icon>
+          <span class="pl-1">{{ fax }}</span>
+        </div>
+        <div>
+          <v-icon small>mdi-mail</v-icon>
+          <span class="pl-1">{{ email }}</span>
+        </div>
       </div>
-      <div>
-        <v-icon small>mdi-fax</v-icon>
-        <span class="pl-1">{{ fax }}</span>
+      <div class="py-6">
+        <h4>Registerangaben</h4>
+        <span>Amtsgericht Duisburg</span>
+        <br />
+        <span>Registernummer VR 4811</span>
       </div>
-      <div>
-        <v-icon small>mdi-mail</v-icon>
-        <span class="pl-1">{{ email }}</span>
+      <div class="py-6">
+        <h4>Vorstand</h4>
+        <ul>
+          <li v-for="chairman in board" :key="chairman.name">
+            <span>{{ chairman.name }}, {{ chairman.degree }}</span>
+          </li>
+        </ul>
       </div>
-    </div>
-    <div class="py-6">
-      <h4>Registerangaben</h4>
-      <span>Amtsgericht Duisburg</span>
-      <br />
-      <span>Registernummer VR 4811</span>
-    </div>
-    <div class="py-6">
-      <h4>Vorstand</h4>
-      <ul>
-        <li v-for="chairman in board" :key="chairman.name">
-          <span>{{ chairman.name }}, {{ chairman.degree }}</span>
-        </li>
-      </ul>
-    </div>
-    <div class="py-6">
-      <h4>{{ disclaimer.title }}</h4>
-      <p>{{ disclaimer.content }}</p>
-    </div>
-  </section>
+      <div class="py-6">
+        <h4>{{ disclaimer.title }}</h4>
+        <p>{{ disclaimer.content }}</p>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
+import Banner from "@/components/Banner.vue";
 export default {
   name: "Impress",
+  components: {
+    Banner
+  },
   data: () => ({
+    banner: {
+      title: 'Impressum',
+      uri: '/assets/images/impressum_mobile.jpg'
+    },
     address: {
       name: "Zentrum für Integrations- und Migrationsarbeit (ZIUMA) e.V.",
       street: "Falkstraße 73-77",

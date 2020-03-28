@@ -35,7 +35,7 @@
             ></v-card-title>
 
             <v-card-text class="subtitle-1" v-text="text"> </v-card-text>
-            <v-btn flat color="primary">Mehr erfahren!</v-btn>
+            <v-btn color="primary">Mehr erfahren!</v-btn>
           </v-card>
         </v-col>
       </v-row>

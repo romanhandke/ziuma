@@ -32,7 +32,7 @@
           </v-col>
 
           <v-col class="mx-auto" cols="auto">
-            <v-btn color="primary" x-large flat>
+            <v-btn color="primary" x-large>
               Submit
             </v-btn>
           </v-col>
