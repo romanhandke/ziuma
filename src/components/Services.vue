@@ -3,7 +3,9 @@
     <div class="py-12"></div>
 
     <v-container class="text-center">
-      <h2 class="display-2 font-weight-bold mb-3 text-uppercase">Unsere Leistungen</h2>
+      <h2 class="display-2 font-weight-bold mb-3 text-uppercase">
+        Unsere Leistungen
+      </h2>
 
       <v-responsive class="mx-auto mb-12" width="56">
         <v-divider class="mb-1"></v-divider>
@@ -59,7 +61,7 @@ export default {
         title: "Bildung & Erziehung",
         text:
           "Sed ut elementum justo. Suspendisse non justo enim. Vestibulum cursus mauris dui, a luctus ex blandit. Lorem ipsum dolor sit amet consectetur adipisicing elit. qui ipsum eveniet facilis obcaecati corrupti consectetur adipisicing elit."
-      },
+      }
     ]
   })
 };

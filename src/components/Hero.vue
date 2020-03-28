@@ -8,32 +8,27 @@
       >
         <v-theme-provider dark>
           <v-container fill-height>
-            <v-row
-              align="center"
-              class="white--text mx-auto"
-              justify="center"
-            >
-              <v-col
-                class="white--text text-center"
-                cols="12"
-                tag="h1"
-              >
+            <v-row align="center" class="white--text mx-auto" justify="center">
+              <v-col class="white--text text-center" cols="12" tag="h1">
                 <span
                   class="font-weight-light"
-                  :class="[$vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2']"
+                  :class="[
+                    $vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2'
+                  ]"
                 >
                   WILLKOMMEN BEI
                 </span>
 
-                <br>
+                <br />
 
                 <span
-                  :class="[$vuetify.breakpoint.smAndDown ? 'display-3': 'display-4']"
+                  :class="[
+                    $vuetify.breakpoint.smAndDown ? 'display-3' : 'display-4'
+                  ]"
                   class="font-weight-black"
                 >
                   ZIUMA e.V.
                 </span>
-
               </v-col>
 
               <v-btn

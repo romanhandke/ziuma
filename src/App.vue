@@ -1,8 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="white">
+    <v-app-bar app color="white">
       <v-toolbar-title>ZIUMA e.V.</v-toolbar-title>
     </v-app-bar>
 
@@ -16,8 +14,7 @@
 export default {
   name: "App",
 
-  components: {
-  },
+  components: {},
 
   data: () => ({
     //
