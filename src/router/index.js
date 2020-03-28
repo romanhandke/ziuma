@@ -34,6 +34,16 @@ const routes = [
     path: "/services",
     name: "Services",
     component: () => import("../views/Services")
+  },
+  {
+    path: "/migration",
+    name: "Migration",
+    component: () => import("../views/Migration")
+  },
+  {
+    path: "/education",
+    name: "Education",
+    component: () => import("../views/Education")
   }
 ];
 

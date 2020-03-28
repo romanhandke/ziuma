@@ -37,11 +37,20 @@ export default {
     drawer: false,
     navItems: [
       { title: "Startseite", icon: "mdi-home", link: "/" },
-      { title: "Bildung & Erziehung", icon: "mdi-briefcase", link: "/services" },
       { title: "Über Uns", icon: "mdi-information", link: "/about" },
       {
-        title: "Diesterweg-Stipendium",
+        title: "Migration & Integration",
+        icon: "mdi-account-group",
+        link: "/migration"
+      },
+      {
+        title: "Bildung & Erziehung",
         icon: "mdi-book-open-variant",
+        link: "/education"
+      },
+      {
+        title: "Diesterweg-Stipendium",
+        icon: "mdi-lead-pencil",
         link: "/stipend"
       },
       { title: "Standorte", icon: "mdi-home-city", link: "/sites" },

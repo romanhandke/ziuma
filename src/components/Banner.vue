@@ -1,7 +1,7 @@
 <template>
   <v-row class="no-gutters">
     <v-img
-      :max-height="'calc(25vh - ' + $vuetify.application.top + 'px)'"
+      :max-height="'calc(30vh - ' + $vuetify.application.top + 'px)'"
       :src="banner.uri"
       gradient="to top right, rgba(0,0,0,.7), rgba(0,0,0,.7)"
     >

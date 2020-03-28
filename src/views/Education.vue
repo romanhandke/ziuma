@@ -1,5 +1,5 @@
 <template>
-  <div class="diesterweg-stipend">
+  <div class="education">
     <banner v-bind:banner="banner"></banner>
   </div>
 </template>
@@ -7,14 +7,14 @@
 <script>
 import Banner from "@/components/Banner";
 export default {
-  name: "DiesterwegStipend",
+  name: "Education",
   components: {
     Banner
   },
   data: () => ({
     banner: {
-      title: "Diesterweg- Stipendium",
-      uri: "/assets/images/dwstipend_mobile.jpg"
+      title: "Bildung & Erziehung",
+      uri: "/assets/images/education_mobile.jpg"
     }
   })
 };
