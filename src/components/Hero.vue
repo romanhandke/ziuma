@@ -3,7 +3,8 @@
     <v-row class="no-gutters">
       <v-img
         :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
-        src="assets/images/header_mobile.jpg"
+        :max-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
+        src="../assets/images/header_mobile.jpg"
         gradient="to top right, rgba(0,0,0,.7), rgba(0,0,0,.7)"
       >
         <v-theme-provider dark>

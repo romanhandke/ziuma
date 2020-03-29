@@ -54,8 +54,8 @@ export default {
   },
   data: () => ({
     banner: {
-      title: 'Impressum',
-      uri: '/assets/images/impressum_mobile.jpg'
+      title: "Impressum",
+      uri: "/assets/images/impressum_mobile.jpg"
     },
     address: {
       name: "Zentrum für Integrations- und Migrationsarbeit (ZIUMA) e.V.",

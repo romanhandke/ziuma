@@ -25,7 +25,7 @@
       </v-responsive>
 
       <v-avatar class="elevation-12 mb-12" size="128">
-        <v-img src="assets/images/portrait.jpg"></v-img>
+        <v-img src="../assets/images/portrait.jpg"></v-img>
       </v-avatar>
 
       <div></div>

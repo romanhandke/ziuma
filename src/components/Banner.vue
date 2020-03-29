@@ -28,7 +28,9 @@
 <script>
 export default {
   name: "Banner",
-  props: ['banner']
+  props: {
+    banner: Object
+  }
 };
 </script>
 
