@@ -37,8 +37,15 @@ const routes = [
   },
   {
     path: "/migration",
-    name: "Migration",
-    component: () => import("../views/Migration")
+    name: "Migrations",
+    component: () => import("../views/Migration"),
+    children: [
+      {
+        path: "/migration/:id",
+        name: "serviceModal",
+        component: () => import("../components/ServiceModal")
+      }
+    ]
   },
   {
     path: "/education",
