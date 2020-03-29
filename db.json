@@ -1,0 +1,97 @@
+{
+  "migrationServices": [
+    {
+      "id": 1,
+      "image": "/assets/images/education_mobile.jpg",
+      "title": "Regionale Beratung",
+      "body":
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aut cum cupiditate dignissimos doloribus ea est eum fuga harum mollitia nesciunt pariatur praesentium quam qui quia recusandae reiciendis sed sequi similique soluta, totam veniam? Dicta doloribus, error et molestiae nisi nostrum repellendus? A animi error quia ullam vel!"
+    },
+    {
+      "id": 2,
+      "image": "/assets/images/migration_mobile.jpg",
+      "title": "Migrationsberatung für Erwachsene",
+      "body":
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aut cum cupiditate dignissimos doloribus ea est eum fuga harum mollitia nesciunt pariatur praesentium quam qui quia recusandae reiciendis sed sequi similique soluta, totam veniam? Dicta doloribus, error et molestiae nisi nostrum repellendus? A animi error quia ullam vel!"
+    },
+    {
+      "id": 3,
+      "image": "/assets/images/dwstipend_mobile.jpg",
+      "title": "Integrationsprojekt",
+      "body":
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aut cum cupiditate dignissimos doloribus ea est eum fuga harum mollitia nesciunt pariatur praesentium quam qui quia recusandae reiciendis sed sequi similique soluta, totam veniam? Dicta doloribus, error et molestiae nisi nostrum repellendus? A animi error quia ullam vel!"
+    },
+    {
+      "id": 4,
+      "image": "/assets/images/mso.jpg",
+      "title": "Wir machen mit (MSO Projekt)",
+      "body":
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aut cum cupiditate dignissimos doloribus ea est eum fuga harum mollitia nesciunt pariatur praesentium quam qui quia recusandae reiciendis sed sequi similique soluta, totam veniam? Dicta doloribus, error et molestiae nisi nostrum repellendus? A animi error quia ullam vel!"
+    },
+    {
+      "id": 5,
+      "image": "/assets/images/ankommenstreffpunkt.jpg",
+      "title": "Komm an / Integration und Begleitung",
+      "body":
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aut cum cupiditate dignissimos doloribus ea est eum fuga harum mollitia nesciunt pariatur praesentium quam qui quia recusandae reiciendis sed sequi similique soluta, totam veniam? Dicta doloribus, error et molestiae nisi nostrum repellendus? A animi error quia ullam vel!"
+    }
+  ],
+  "educationServices": [
+    {
+      "id": 1,
+      "image": "/assets/images/education_mobile.jpg",
+      "title": "Ambulante Erziehungshilfe",
+      "body":
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aut cum cupiditate dignissimos doloribus ea est eum fuga harum mollitia nesciunt pariatur praesentium quam qui quia recusandae reiciendis sed sequi similique soluta, totam veniam? Dicta doloribus, error et molestiae nisi nostrum repellendus? A animi error quia ullam vel!"
+    },
+    {
+      "id": 2,
+      "image": "/assets/images/migration_mobile.jpg",
+      "title": "Sozialpädagogisch Betreutes Wohnen (SBW)",
+      "body":
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aut cum cupiditate dignissimos doloribus ea est eum fuga harum mollitia nesciunt pariatur praesentium quam qui quia recusandae reiciendis sed sequi similique soluta, totam veniam? Dicta doloribus, error et molestiae nisi nostrum repellendus? A animi error quia ullam vel!"
+    },
+    {
+      "id": 3,
+      "image": "/assets/images/dwstipend_mobile.jpg",
+      "title": "Sozialpädagogische Wohngemeinschaft für Mädchen",
+      "body":
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aut cum cupiditate dignissimos doloribus ea est eum fuga harum mollitia nesciunt pariatur praesentium quam qui quia recusandae reiciendis sed sequi similique soluta, totam veniam? Dicta doloribus, error et molestiae nisi nostrum repellendus? A animi error quia ullam vel!"
+    },
+    {
+      "id": 4,
+      "image": "/assets/images/mso.jpg",
+      "title": "Kinder- und Jugendschutz / Gewaltprävention",
+      "body":
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aut cum cupiditate dignissimos doloribus ea est eum fuga harum mollitia nesciunt pariatur praesentium quam qui quia recusandae reiciendis sed sequi similique soluta, totam veniam? Dicta doloribus, error et molestiae nisi nostrum repellendus? A animi error quia ullam vel!"
+    },
+    {
+      "id": 5,
+      "image": "/assets/images/ankommenstreffpunkt.jpg",
+      "title": "Musikalische Schreibwerkstatt",
+      "body":
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aut cum cupiditate dignissimos doloribus ea est eum fuga harum mollitia nesciunt pariatur praesentium quam qui quia recusandae reiciendis sed sequi similique soluta, totam veniam? Dicta doloribus, error et molestiae nisi nostrum repellendus? A animi error quia ullam vel!"
+    },
+    {
+      "id": 6,
+      "image": "/assets/images/mso.jpg",
+      "title": "Gesunde Ernährung und Bewegung",
+      "body":
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aut cum cupiditate dignissimos doloribus ea est eum fuga harum mollitia nesciunt pariatur praesentium quam qui quia recusandae reiciendis sed sequi similique soluta, totam veniam? Dicta doloribus, error et molestiae nisi nostrum repellendus? A animi error quia ullam vel!"
+    },
+    {
+      "id": 7,
+      "image": "/assets/images/mso.jpg",
+      "title": "Willkommensangebot",
+      "body":
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aut cum cupiditate dignissimos doloribus ea est eum fuga harum mollitia nesciunt pariatur praesentium quam qui quia recusandae reiciendis sed sequi similique soluta, totam veniam? Dicta doloribus, error et molestiae nisi nostrum repellendus? A animi error quia ullam vel!"
+    },
+    {
+      "id": 8,
+      "image": "/assets/images/mso.jpg",
+      "title": "Begabtenförderung",
+      "body":
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aut cum cupiditate dignissimos doloribus ea est eum fuga harum mollitia nesciunt pariatur praesentium quam qui quia recusandae reiciendis sed sequi similique soluta, totam veniam? Dicta doloribus, error et molestiae nisi nostrum repellendus? A animi error quia ullam vel!"
+    }
+  ]
+}
