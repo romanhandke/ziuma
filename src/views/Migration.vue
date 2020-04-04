@@ -2,7 +2,11 @@
   <div class="migration">
     <banner v-bind:banner="banner"></banner>
     <div class="container">
-      <service-list v-bind:services="migrationServices"></service-list>
+      <service-list
+        v-bind:services="migrationServices"
+        v-bind:service-name="'migrationServices'"
+        v-bind:route="'migrationServiceModal'"
+      ></service-list>
     </div>
   </div>
 </template>

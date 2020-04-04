@@ -9,7 +9,7 @@
       <v-card>
         <v-toolbar>
           <div class="container">
-            <v-btn icon @click="$router.go(-1)">
+            <v-btn icon @click="close">
               <v-icon>mdi-chevron-double-left</v-icon>
               Zurück
             </v-btn>
@@ -31,10 +31,19 @@ export default {
   }),
   computed: {
     service() {
-      let services = this.$store.state.migrationServices.filter(service => {
+      let stateName = this.$router.currentRoute.params.serviceName;
+      let services = this.$store.state[stateName].filter(service => {
         return service.id === this.$router.currentRoute.params.id;
       });
       return services[0];
+    }
+  },
+  methods: {
+    close() {
+      this.dialog = false;
+      setTimeout(() => {
+        this.$router.go(-1);
+      }, 500);
     }
   }
 };

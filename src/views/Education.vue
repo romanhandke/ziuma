@@ -2,7 +2,11 @@
   <div class="education">
     <banner v-bind:banner="banner"></banner>
     <div class="container">
-      <service-list v-bind:services="educationServices"></service-list>
+      <service-list
+        v-bind:services="educationServices"
+        v-bind:service-name="'educationServices'"
+        v-bind:route="'educationServiceModal'"
+      ></service-list>
     </div>
   </div>
 </template>

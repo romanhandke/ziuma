@@ -8,7 +8,13 @@
             v-for="service in services"
             :key="service.id"
             @click="
-              $router.push({ name: 'serviceModal', params: { id: service.id } })
+              $router.push({
+                name: route,
+                params: {
+                  id: service.id,
+                  serviceName: serviceName
+                }
+              })
             "
           >
             <v-list-item-avatar>
@@ -29,7 +35,9 @@
 export default {
   name: "ServiceList",
   props: {
-    services: Array
+    serviceName: String,
+    services: Array,
+    route: String
   },
   data: () => ({
     dialog: false

@@ -42,15 +42,23 @@ const routes = [
     children: [
       {
         path: "/migration/:id",
-        name: "serviceModal",
-        component: () => import("../components/ServiceModal")
+        name: "migrationServiceModal",
+        component: () => import("../components/ServiceModal"),
+        props: true
       }
     ]
   },
   {
     path: "/education",
     name: "Education",
-    component: () => import("../views/Education")
+    component: () => import("../views/Education"),
+    children: [
+      {
+        path: "/education/:id",
+        name: "educationServiceModal",
+        component: () => import("../components/ServiceModal")
+      }
+    ]
   }
 ];
 

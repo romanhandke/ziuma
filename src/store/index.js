@@ -21,7 +21,7 @@ export default new Vuex.Store({
     loadMigrationServices({ commit }) {
       axios
         .get(
-          "https://my-json-server.typicode.com/romanhandke/json-placeholder/services"
+          "https://my-json-server.typicode.com/romanhandke/ziuma/migrationServices"
         )
         .then(response => {
           let posts = response.data;
@@ -32,7 +32,7 @@ export default new Vuex.Store({
     loadEducationServices({ commit }) {
       axios
         .get(
-          "https://my-json-server.typicode.com/romanhandke/json-placeholder/services"
+          "https://my-json-server.typicode.com/romanhandke/ziuma/educationServices"
         )
         .then(response => {
           let posts = response.data;
