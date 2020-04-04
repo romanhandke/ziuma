@@ -93,5 +93,68 @@
       "body":
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aut cum cupiditate dignissimos doloribus ea est eum fuga harum mollitia nesciunt pariatur praesentium quam qui quia recusandae reiciendis sed sequi similique soluta, totam veniam? Dicta doloribus, error et molestiae nisi nostrum repellendus? A animi error quia ullam vel!"
     }
+  ],
+  "about": [
+    {
+      "id": 1,
+      "title": "Verein",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci beatae cum dignissimos et fuga, in ipsum iusto libero maxime omnis optio praesentium quam quos totam, voluptate voluptates! A, voluptatibus?"
+    },
+    {
+      "id": 2,
+      "title": "Leitbild",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci beatae cum dignissimos et fuga, in ipsum iusto libero maxime omnis optio praesentium quam quos totam, voluptate voluptates! A, voluptatibus?"
+    },
+    {
+      "id": 3,
+      "title": "Migration & Integration",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci beatae cum dignissimos et fuga, in ipsum iusto libero maxime omnis optio praesentium quam quos totam, voluptate voluptates! A, voluptatibus?"
+    },
+    {
+      "id": 4,
+      "title": "Bildung & Erziehung",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci beatae cum dignissimos et fuga, in ipsum iusto libero maxime omnis optio praesentium quam quos totam, voluptate voluptates! A, voluptatibus?"
+    }
+  ],
+  "dws": [
+    {
+      "id": 1,
+      "title": "1. Generation",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci beatae cum dignissimos et fuga, in ipsum iusto libero maxime omnis optio praesentium quam quos totam, voluptate voluptates! A, voluptatibus?",
+    },
+    {
+      "id": 2,
+      "title": "2. Generation",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci beatae cum dignissimos et fuga, in ipsum iusto libero maxime omnis optio praesentium quam quos totam, voluptate voluptates! A, voluptatibus?",
+    },
+    {
+      "id": 3,
+      "title": "3. Generation",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci beatae cum dignissimos et fuga, in ipsum iusto libero maxime omnis optio praesentium quam quos totam, voluptate voluptates! A, voluptatibus?",
+    }
+  ],
+  "sites": [
+    {
+      "location": "Standort Mitte",
+      "name": "Beratungsstelle für Migration, Bildung und Erziehung",
+      "address": {
+        "street": "Musfeldstraße 161-163",
+        "city": "47053 Duisburg - Hochfeld",
+        "phone": "0203 72836635",
+        "fax": "0203 72836641",
+        "email": "info@ziuma.de"
+      }
+    },
+    {
+      "location": "Standort Mitte",
+      "name": "Sozialpädagogisch Betreutes Wohnen (SBW)",
+      "address": {
+        "street": "Musfeldstraße 161-163",
+        "city": "47053 Duisburg - Hochfeld",
+        "phone": "0203 60799315",
+        "fax": "0203 60799316",
+        "email": "sbw@ziuma.de"
+      }
+    }
   ]
 }
