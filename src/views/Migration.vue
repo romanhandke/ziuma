@@ -3,6 +3,7 @@
     <banner v-bind:banner="banner"></banner>
     <div class="container">
       <service-list
+        subheader="Handlungsfelder"
         v-bind:services="migrationServices"
         v-bind:service-name="'migrationServices'"
         v-bind:route="'migrationServiceModal'"

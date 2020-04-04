@@ -3,6 +3,7 @@
     <banner v-bind:banner="banner"></banner>
     <div class="container">
       <service-list
+        subheader="Handlungsfelder"
         v-bind:services="educationServices"
         v-bind:service-name="'educationServices'"
         v-bind:route="'educationServiceModal'"
