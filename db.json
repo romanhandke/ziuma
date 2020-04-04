@@ -119,16 +119,32 @@
   "dws": [
     {
       "id": 1,
+      "image": "/assets/images/dws_1.jpg",
       "title": "1. Generation",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci beatae cum dignissimos et fuga, in ipsum iusto libero maxime omnis optio praesentium quam quos totam, voluptate voluptates! A, voluptatibus?"
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci beatae cum dignissimos et fuga, in ipsum iusto libero maxime omnis optio praesentium quam quos totam, voluptate voluptates! A, voluptatibus?",
+      "slides": [
+        "http://www.ziuma.de/wp-content/uploads/20191118_DWS_AuAfest1.jpg",
+        "http://www.ziuma.de/wp-content/uploads/20191118_DWS_AuAfest3.jpg",
+        "http://www.ziuma.de/wp-content/uploads/20191118_DWS_AuAfest4.jpg",
+        "http://www.ziuma.de/wp-content/uploads/20191118_DWS_AuAfest5.jpg",
+        "http://www.ziuma.de/wp-content/uploads/20191118_DWS_AuAfest6.jpg",
+        "http://www.ziuma.de/wp-content/uploads/20191118_DWS_AuAfest7.jpg",
+        "http://www.ziuma.de/wp-content/uploads/20191118_DWS_AuAfest8.jpg",
+        "http://www.ziuma.de/wp-content/uploads/20191118_DWS_AuAfest9.jpg",
+        "http://www.ziuma.de/wp-content/uploads/20191118_DWS_AuAfest10.jpg",
+        "http://www.ziuma.de/wp-content/uploads/20191118_DWS_AuAfest11.jpg",
+        "http://www.ziuma.de/wp-content/uploads/20191118_DWS_AuAfest12.jpg"
+      ]
     },
     {
       "id": 2,
+      "image": "/assets/images/dws_2.png",
       "title": "2. Generation",
       "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci beatae cum dignissimos et fuga, in ipsum iusto libero maxime omnis optio praesentium quam quos totam, voluptate voluptates! A, voluptatibus?"
     },
     {
       "id": 3,
+      "image": "/assets/images/dws_2.png",
       "title": "3. Generation",
       "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci beatae cum dignissimos et fuga, in ipsum iusto libero maxime omnis optio praesentium quam quos totam, voluptate voluptates! A, voluptatibus?"
     }
