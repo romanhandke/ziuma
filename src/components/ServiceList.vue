@@ -2,10 +2,7 @@
   <div class="container">
     <v-card max-width="500" class="mx-auto">
       <v-list>
-        <v-subheader
-                v-if="subheader"
-                class="text-uppercase"
-        >
+        <v-subheader v-if="subheader" class="text-uppercase">
           {{ subheader }}
         </v-subheader>
         <v-list-item-group>

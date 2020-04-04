@@ -4,6 +4,7 @@
     <about></about>
     <services></services>
     <contact></contact>
+    <scroll-to-top></scroll-to-top>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Hero from "@/components/Hero.vue";
 import About from "@/components/About.vue";
 import Services from "@/components/Services.vue";
 import Contact from "@/components/Contact.vue";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export default {
   name: "Home",
@@ -19,7 +21,8 @@ export default {
     Hero,
     About,
     Services,
-    Contact
+    Contact,
+    ScrollToTop
   }
 };
 </script>
