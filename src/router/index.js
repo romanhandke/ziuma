@@ -18,7 +18,15 @@ const routes = [
   {
     path: "/stipend",
     name: "Stipend",
-    component: () => import("../views/DiesterwegStipend")
+    component: () => import("../views/DiesterwegStipend"),
+    children: [
+      {
+        path: "/stipend/:id",
+        name: "generation",
+        component: () => import("../components/ServiceModal"),
+        props: true
+      }
+    ]
   },
   {
     path: "/sites",
