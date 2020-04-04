@@ -30,7 +30,7 @@
 
       <div></div>
 
-      <v-btn color="grey" href="https://vuetifyjs.com" outlined large>
+      <v-btn color="grey" :to="'/about'" outlined large>
         <span class="grey--text text--darken-1 font-weight-bold">
           Mehr über uns erfahren
         </span>

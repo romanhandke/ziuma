@@ -15,7 +15,7 @@
 
       <v-row>
         <v-col
-          v-for="({ icon, title, text }, i) in services"
+          v-for="({ icon, link, title, text }, i) in services"
           :key="i"
           cols="12"
           md="6"
@@ -35,7 +35,7 @@
             ></v-card-title>
 
             <v-card-text class="subtitle-1" v-text="text"> </v-card-text>
-            <v-btn color="primary my-6">Mehr erfahren!</v-btn>
+            <v-btn color="primary my-6" :to="link">Mehr erfahren!</v-btn>
           </v-card>
         </v-col>
       </v-row>
@@ -53,12 +53,14 @@ export default {
       {
         icon: "mdi-account-group-outline",
         title: "Migration & Integration",
+        link: "/migration",
         text:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam"
       },
       {
         icon: "mdi-book-open-variant",
         title: "Bildung & Erziehung",
+        link: "/education",
         text:
           "Sed ut elementum justo. Suspendisse non justo enim. Vestibulum cursus mauris dui, a luctus ex blandit. Lorem ipsum dolor sit amet consectetur adipisicing elit. qui ipsum eveniet facilis obcaecati corrupti consectetur adipisicing elit."
       }
