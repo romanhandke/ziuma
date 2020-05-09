@@ -12,48 +12,33 @@ export const actions = {
     commit("SET_LOADING");
   },
   loadMigrationServices({ commit }) {
-    axios
-      .get(baseUri + migrationServices)
-      .then(response => {
-        let posts = response.data;
-        commit("SET_MIGRATION_SERVICES", posts);
-      })
-      .catch(error => console.log(error));
+    axios.get(baseUri + migrationServices).then(response => {
+      let posts = response.data;
+      commit("SET_MIGRATION_SERVICES", posts);
+    });
   },
   loadEducationServices({ commit }) {
-    axios
-      .get(baseUri + educationServices)
-      .then(response => {
-        let posts = response.data;
-        commit("SET_EDUCATION_SERVICES", posts);
-      })
-      .catch(error => console.log(error));
+    axios.get(baseUri + educationServices).then(response => {
+      let posts = response.data;
+      commit("SET_EDUCATION_SERVICES", posts);
+    });
   },
   loadAboutData({ commit }) {
-    axios
-      .get(baseUri + about)
-      .then(response => {
-        let posts = response.data;
-        commit("SET_ABOUT", posts);
-      })
-      .catch(error => console.log(error));
+    axios.get(baseUri + about).then(response => {
+      let posts = response.data;
+      commit("SET_ABOUT", posts);
+    });
   },
   loadDwsData({ commit }) {
-    axios
-      .get(baseUri + dws)
-      .then(response => {
-        let posts = response.data;
-        commit("SET_DWS", posts);
-      })
-      .catch(error => console.log(error));
+    axios.get(baseUri + dws).then(response => {
+      let posts = response.data;
+      commit("SET_DWS", posts);
+    });
   },
   loadSites({ commit }) {
-    axios
-      .get(baseUri + sites)
-      .then(response => {
-        let posts = response.data;
-        commit("SET_SITES", posts);
-      })
-      .catch(error => console.log(error));
+    axios.get(baseUri + sites).then(response => {
+      let posts = response.data;
+      commit("SET_SITES", posts);
+    });
   }
 };
