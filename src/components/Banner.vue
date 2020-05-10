@@ -11,7 +11,7 @@
             <v-col class="white--text text-center" cols="12" tag="h1">
               <span
                 :class="[
-                  $vuetify.breakpoint.smAndDown ? 'display-2' : 'display-4'
+                  $vuetify.breakpoint.smAndDown ? 'display-1' : 'display-3'
                 ]"
                 class="font-weight-black text-uppercase"
               >
